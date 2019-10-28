@@ -1,3 +1,4 @@
+```uml
 @startuml
 participant "クライアント（ブラウザ）"
 box ミラサポ plus
@@ -47,3 +48,4 @@ deactivate "ミラサポplusサーバ（DB（リソース））"
 "クライアント（ブラウザ）" <-- "ミラサポplusサーバ(REST_API Endpoint)" : Response(JSON)
 deactivate "ミラサポplusサーバ(REST_API Endpoint)"
 @enduml
+```
